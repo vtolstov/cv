@@ -1,4 +1,98 @@
-#cv
+# Резюме
 
-Резюме "System administrator, Developer"
-<div class="resume"><p class="info-footer">Резюме обновлено 19 мая 2018 в 02:25</p><p class="resume__body"><p class="resume__title">Tolstov Vasiliy Georgievich</p><p>Мужчина, 31 год, родился <text>31</text> <text>июля</text> <text>1986</text></p><br><p>+7 (911) 9940054</p><p>v.tolstov@selfip.ru<span class="info"> — предпочитаемый способ связи</span></p><p>Skype: vtolstov</p><br><p>Проживает: Санкт-Петербург, м. Удельная</p><p>Гражданство: Россия, есть разрешение на работу: Россия</p><p>Не готов к переезду, не готов к командировкам</p><p class="resume__block">Желаемая должность и зарплата</p><p class="resume__position">System administrator, Developer</p><p><span class="resume__salary">2 500</span> USD</p><p>Информационные технологии, интернет, телеком</p><ul><li class="resume-specialization">Сетевые технологии</li><li class="resume-specialization">Системный администратор</li><li class="resume-specialization">Интернет</li></ul><br><p><p>Занятость: частичная занятость, проектная работа, полная занятость</p><p>График работы: гибкий график, полный день, удаленная работа</p></p><p>Желательное время в пути до работы: не более часа</p><p class="resume__block">Опыт работы — 12 лет 8 месяцев</p><ul><li class="resume-experience"><span class="resume-experience__company">clodo.ru/simplecloud.ru</span><p class="info">Санкт-Петербург, www.clodo.ru http://simplecloud.ru</p><p class="bloko-form-hint">Апрель 2010 — настоящее время 8 лет 2 месяца</p><p class="resume-experience__position">System administrator, Developer</p><p><description>* i'm only one admin of two vps hosting in same time (more then 420 hardware servers in 4 data centers) <br>* qa and code review on our recipes for opscode chef<br>* know how to move already running services from one server to another without downtime<br>* move all configuration management from opscode chef to saltstack<br>* design and build virtual machines hosting infrastructure for mass cloud hosting<br>* migrate all clients vps from xen to kvm hypervisor<br>* write rclone http readonly fs support to mount apache/nginx endpoints to local fs<br>* write tight png support to node-rfb2 (pr on github)<br>* write ogo openflow controller support for dhcp packet parsing, fix openflow 1.0 support in ogo controller<br>* write in golang vnc proxy for supermicro ipkvm with ability to decode supermicro rfb proto and convert to raw<br>* write in golang installer for compressed raw images that skips zeroes before qemu have ability to skip writing zeros/discard zeroes<br>* integrate packer builder to out internal build system to provide images for our internal servers (compute, database and other images booted via ipxe + squashfs)<br>* write packer plugins to compress artifacts, convert image to squashfs, checksum and incomplete libvirt builder<br>* write xen balloon driver to dynamically change memory size in guest<br>* write scripts and custom initrd to shrink filesystem partition before vps is switch rooted, so users have ability to enlarge and shrink their vps disks<br>* write golang vnc websocket proxy with http auth backend one year before digitalocean<br>* write internal server to provide ipv6 ra and ipv4 dhcp to our users vps tightly integrated with libvirt domain metadata<br>* port coreos-cloudinit to freebsd, fix it and provide build without CGO and with ability to resize freebsd slices<br>* begin integrate juju to our hosting system to provide for users preconfigured systems with wordpress, joomla<br>* contribute to packer (mostly qemu and digitalocean builders, some common code to fetch checksums via http)<br>* contribute to sheepdog software defined storage, work on raft cluster backend (incomplete)<br>* contribute to openvswitch<br>* contribute to exherbo linux (mostly exheres-0 for building various software)<br>* contribute to libvirt patches to plain ethernet network address and routes assignment<br>* write dracut module to boot via ipxe with squashfs + overlayfs support<br>* write golang ftp server with openstack swift backend and custom auth backend via internal api<br>* contribute to google/gopacket dhcp support, begin adding openflow 1.3 support (not have much time to complete)<br>* write opscode chef recipes for clients vps and our hosting servers<br>* contribute to opscode chef<br>* design and integrate encrypted virtual machines on altlinux with GOST encryption<br>* head of technical support, teach new workers, answer users question via ticket system</description></p></li><li class="resume-experience"><span class="resume-experience__company">Timeweb.ru</span><p class="info">Санкт-Петербург, www.timeweb.ru</p><p class="bloko-form-hint">Март 2009 — Декабрь 2009 10 месяцев</p><p class="resume-experience__position">System administrator</p><p><description>* clusterise mail system with nginx<br>* write patches to apache web server to display request in process list ( setproctitle)<br>* write patch to php that can override needed functions and write backtrace to syslog before function run (used to find backdoors in php scripts, track spammers)</description></p></li><li class="resume-experience"><span class="resume-experience__company">Vkontakte</span><p class="info">Санкт-Петербург, vk.com</p><p class="bloko-form-hint">Август 2008 — Февраль 2009 7 месяцев</p><p class="resume-experience__position">System administrator</p><p><description>* administer more than 2500 servers in different locations<br>* replicate mysql databases (master-slave), restore databases after crush<br>* write php scripts to encode video that uploaded by users (vkadre.ru)</description></p></li><li class="resume-experience"><span class="resume-experience__company">PeterHost.ru</span><p class="info">Санкт-Петербург, www.peterhost.ru</p><p class="bloko-form-hint">Июль 2005 — Август 2008 3 года 2 месяца</p><p class="resume-experience__position">System administrator of virtual hosting department, CTO of virtual hosting department</p><p><description>* monitoring virtual hosting services (mysql, apache, nginx) via nagios, writing nagios plugins.<br>* track bugs on opensource projects that we use, patch, deploy to production<br>* help users to fix their scripts (mostly php) to run without errors<br>* track errors and fixes for internal company products, scripts<br>* write internal scripts to automate moving users and their data between physical servers without clustered filesystem<br>* testing new hardware and software<br>* develop from the beginning new servers for virtual hosting based on Gentoo Linux (to change FreeBSD currently used in our company)<br>* install and configure user services like web mail, database and so on users accounts<br>* teach new peoples to work in technical support department<br>* configure network devices (mostly dlink)<br>* check cluster filesystems to work with virtual hosting environment (gfs2, openafs), bring up testing cluster on gfs2</description></p></li></ul><p class="resume__block">Образование</p><ul><li>Высшее</li><li class="resume-education"><span class="resume-education__name">ITMO University</span><p class="bloko-form-hint">2009</p></li><p>Information technology and programming, document about ending education on profession engineer-programmer</p></ul><p class="resume__block">Повышение квалификации, курсы</p><ul><li class="resume-education"><span class="resume-education__name">Inspiring Management</span><p class="bloko-form-hint">2008</p></li><p>http://ntrs.ru, HR</p></ul><p class="resume__block">Ключевые навыки</p><ul><li class="resume-skils"><span class="bloko-form-hint">Знание языков</span><ul class="resume-skils__item"><li>Русский<span class="info"> — родной</span></li><li>Английский<span class="info"> — читаю профессиональную литературу</span></li></ul></li><li class="resume-skils"><span class="bloko-form-hint">Навыки</span><p class="resume-skils__item"><span>KVM; </span><span>Администрирование серверов Linux; </span><span>Virtualization; </span><span>Настройка VPS/VDS серверов; </span><span>Nagios; </span><span>Zabbix; </span><span>Packing; </span><span>MySQL; </span><span>NoSQL; </span><span>Atlassian Jira; </span><span>Nginx; </span><span>Xen; </span><span>Libvirt; </span><span>Linux; </span><span>TCP/IP; </span><span>Debian; </span><span>Git; </span><span>Bash; </span><span>Chef; </span><span>RPM; </span><span>SDN; </span><span>Openvswitch; </span><span>Настройка серверов; </span><span>Ubuntu; </span><span>Fedora; </span><span>FreeBSD; </span><span>Gentoo; </span><span>Juju; </span><span>Packer; </span><span>Ostree</span></p></li></ul><p class="resume__block">Дополнительная информация</p><ul><li class="resume-additional"><span class="bloko-form-hint">Рекомендации</span><ul class="resume-additional__item"><li class="resume-recomendation">PeterHost.ru<p class="info">Chernov Alexandr (ex CEO)</p></li><li class="resume-recomendation">Vkontakte<p class="info">Pavel Durov (ex CEO)</p></li><li class="resume-recomendation">PeterHost.ru<p class="info">Dmitriy Kostyhin (ex CEO)</p></li><li class="resume-recomendation">Vkontakte/Telegram<p class="info">Igor Dyakonov (system administrator)</p></li></ul></li><li class="resume-skils"><span class="bloko-form-hint">Обо мне</span><p class="resume-skils__item"><string>Have ability to configure servers running on OS Gentoo/Exherbo, Debian/Ubuntu, CentOS/Fedora, ArchLinux, FreeBSD.<br>Prefer to write in golang, but know php, python, c, ruby<br>I like to try new software.<br><br>I'm prefer remote work.<br><br>For search my work question and some code in mailing lists try to search by v.tolstov@selfip.ru and/or Vasiliy Tolstov.<br><br>My github account profile https://github.com/vtolstov</string></p></li></ul></p></div></body>
+## Общее
+ФИО: Толстов Василий Георгиевич
+Мужчина, 31 год, родился 31 июля 1986
+Телефон: +7xxx994xxxx
+Email: v.tolstov@selfip.ru (предпочитаемый способ связи)
+Skype: vtolstov (не проверяю, только по договоренности)
+Telegram: @vtolstov
+Проживаю: Россия, Санкт-Петербург, метро Удельная
+Гражданство: Россия
+Релокация: Не готов к командировкам, не готов к переезду
+Желаемая должность: Системный администратор, Главный разработчик, Технический директор
+Желаемая зарплата: от 150000 р. после уплаты налогов
+Занятость: Полный день, гибкий график, удаленная работа (предпочтительно)
+Желаемое время в пути до работы: не более часа
+Опыт работы по специальности: 12 лет 8 месяцв
+
+## Опыт работы
+* clodo.ru simplecloud.ru
+  г. Санкт-Петербург
+  продолжительность работы: апрель 2010 по июль 2018
+  Системный администратор, разработчик, главный специалист по программному обеспечению
+  * развернул сегмент openstack swift в Санкт-Петербурге для организации гео распределенного хранения объектов
+  * в одиночку администрировал более 420 серверов различной направленности (базы данных, виртуализации, приложений Php, бекап, сетевые, CI/CD) в 4 различных дата центрах в двух городах России
+  * проводил проверку и тестирование рецептов opscode chef, проверял исправления, исправлял сам (ruby)
+  * переносил текущие работающие сервисы на новое аппаратное и программное обеспечение без перерывов в обслуживании
+  * переписал всю систему настройки серверов в opscode chef на saltstack с постепенным внедрением saltstack на текущих работающих серверах, которые обслуживались до этого opscode chef (python, ruby)
+  * спланировал и разработал инфраструктуру хостинга виртуальных машин для массоовго использования (проекты clodo.ru/simplecloud.ru)
+  * разработал и протестировал возможность переезда пользовательских виртуальных машин между двумя дата центрами (переезд между oversun mercury в ixcellerate) посредством gre туннелей и nbd
+  * занимался массовой сменой гипервизора на серверах виртуализации (с xen на kvm) и конвертацией виртуальных машин в автоматическом режиме (bash)
+  * разработал возможность монтирования http/https адреса в режиме только чтения в локальный путь для rclone (fuse, поддерживается apache/nginx структура листинга файлов, golang)
+  * написал поддержку Tight Png кодировки для node-rfb2 (nodejs)
+  * написал поддержу dhcp пакетов для ogo openflow контроллера, исправил разбор openflow 1.0 пакетов для ogo openflow контроллера (golang)
+  * написал поддержку dhcp пакетов для gopacket, написал начальную поддержку openflow (golang)
+  * написал vnc прокси для supermicro aten кодировки с автоматической конвертацией в raw кодировку для обычных vnc клиентов (golang)
+  * написал автоматический установщик операционных систем для клиентский виртуальных машин, который на-лету разжимал образ и пропускал в нем нули, для меньшения времени установки виртуальной машины (использовался до того, как qemu научили не писать нули на диск, а игнорировать или посылать unmap) (golang)
+  * написал множество исправлений packer для qemu сборщика, а также написал несколько пост-процессоров, которые в дальнейшем вошли в основной код packer (golang)
+  * интегрировал packer в систему сбоки образов виртуальных машин для клиентов, а также для внутренних серверов компании (базы данных, виртуализации, веб приложений и т.д.)
+  * написал модуль ядра Linux для динамического управления памятью в виртуальных машинах (максимальная память виртуальной машины менялась в зависимости от использования памяти) (C)
+  * написал систему динамического изминения размера диска виртуальной машины в большую и меньшую сторону при ее загрузке (bash, initramfs)
+  * написал vnc proxy с возможность авторизации клиентов по http/https за год до того, как аналогичную возможность объявил digitalocean (golang)
+  * написал ipv4 dhcp и ipv6 RA сервер, который интегрировался с libvirt посредством метаданных домена (golang)
+  * портировал coreos-cloudinit для FreeBSD, добавил возможность сборки без CGO, добавил возможность изминения размеров FreeBSD слайсов (golang)
+  * начал интеграцию системы развертывания готовых приложений JUJU для предоставления пользователям готовых настроенных приложений с возможностью их расширения
+  * занимался исправлениями software defined storage Sheepdog, разрабатывал Raft драйвер кластера вместо corosync.
+  * работал с openvswitch, участвовал в обсуждениях в рассылке, помогал исправлять и тестировать чужие исправления
+  * написал множество скриптов сборки для Exherbo Linux
+  * написал поддержку создания tap устройств в Libvirt, добавил возможность указания айпи-адресов, роутов посредством Libvirt (C)
+  * написал модуль dracut длф загрузки через pxe+squashfs с поддержкой overlayfs (bash)
+  * написал ftp сервер с бекендом в openstack swift с возможностью авторизации через http/https api (golang)
+  * написал множество рецептов opscode chef для настройки серверов (ruby)
+  * написал и добился включения нескольких патчей в opscode chef (ruby)
+  * написал и добился включения нескольких патчей в saltstack (python)
+  * разработал и внедрил систему зашифрованных виртуальных машин для клиентов для соответсвия №152-ФЗ "О персональных данных" (altlinux, bash, C)
+  * был не только системным администратором, но и при необходимости отвечал на вопросы клиентов, был начальником технической поддержки
+
+* timeweb.ru
+  г. Санкт-Петербург
+  продолжительность работы: март 2009 по декабрь 2009
+  Системный администратор
+  * ускорил работу почтовой системы, использовав nginx как фронтенд перед почтовой системой, снизил использование ресурсов, авторизация клиентов по http/https
+  * написал патч для отображения текущего обрабатываемого запроса в списке процессов для веб сервера apache (setproctitle) (C)
+  * написал патч для Php, который переопределял встроенную функцию mail и вместо нее выполнял собственную функцию, которая позволяла записать в syslog полный бектрейс перед вызовом оригинальной функции (C)
+* vk.com
+  г. Санкт-Петербург
+  продолжительность работы: август 2008 по февраль 2009
+  Системный администратор
+  * помогал администрировать более 2500 серверов в различных дата центрах
+  * реплицировал базы данных (master-slave), восстанавливал из бекапов
+  * пытался переписать систему перекодирования фильмов для проекта vkadre.ru (Php)
+* peterhost.ru
+  г. Санкт-Петербург
+  продолжительность работы: июль 2005 по август 2008
+  Системный администратор, Начальник отдела виртуального хостинга
+  * занимался мониторингом сервисов витуального хостинга (mysql, nginx, apache, exim), писал плагины для nagios
+  * занимался отслеживанием ошибок в различных opensource продуктах, используемых в компании, накладывал исправления, общался с разработчиками
+  * помогал пользователям виртуального хостинга исправлять их скрипты, отвечал на вопросы
+  * написал сисетму переноса пользовательских файлов между серверами, аналог живой миграции до появления контейнеров и виртуализации
+  * занимался переводом системы виртуального хостинга с FreeBSD на Gentoo Linux
+  * занимался обучением новых сотрудников технической поддержки
+  * тестировал кластерные файловые системы для нужд виртуального хостинга (gfs2, openafs)
+
+## Образование
+* Высшее, Университет ИТМО, окончил в 2009 году, по профессии инженер-программист
+* Повышение квалификации: Вдохновляющий менеджмент, 2008 год
+
+## Ключевые навыки
+* Знание языков:
+  * Русский - родной
+  * Английский - читаю профессиональную литературу
+
+## Обо мне
+Предпочитаю удаленную работу, не люблю тратить время на дорогу до работы.
+Интересуюсь техническими новинками в области систем хранения данных, виртуальных сетей, виртуализации.
+Работал с различными версиями OS Linux: Gentoo, Fedora, Centos, Debian, Ubuntu, Exherbo, Slackware, ArchLinux. А также с FreeBSD.
+Предпочитаю програамировать на go, могу на ruby, python, c, php. Но предпочитаю на go.
+Github профиль с частью моих разработок: https://github.com/vtolstov
